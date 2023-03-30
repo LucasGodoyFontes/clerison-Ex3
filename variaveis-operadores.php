@@ -8,7 +8,4 @@ if ($n1 >=0 ) {
     echo "n1 menor q 0 tem valor de $B";
 };
 
-
-
-
 ?>
