@@ -1,6 +1,6 @@
 <?php 
 
-$rola = 'sim';
+$rola = 'nao';
 $coisa = 'sim'; 
 $a;
 if ($coisa == $rola) {
