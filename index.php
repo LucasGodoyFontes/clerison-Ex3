@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -19,59 +18,64 @@
 
 <body>
 
-   
-
-    <div class= "container text-center mt-5">
-
-        <img src="dowload.pnp" alt="" width = "80px">
-
-    </div>
-
-    <div class= "container text-center">
-
-    <h2> TELA DE LOGIN</h2>
 
 
 
+    <div class="container text-center">
+
+        <img src="download.png" alt="" width="90px">
 
     </div>
 
-    <div class= "container text-center">
+
+
+
+    <div class="container text-center">
+
+        <h2>Tela de Login do usuário</h2>
+
+    </div>
+
+
+
+
+    <div class="container text-center">
 
         <form action="" method="post">
 
-            <label for="usuário">Usuário</label>
+            <label class="input group" for="usuario">Usuario</label>
 
-            <input type="email" name="user" id="usuário">
+            <input class="form-control mb-2"  type="email" name="user" id="usuario">
 
+           
 
+            <label class="input group"  for="senha">Senha</label>
 
-
-            <label for="senha">Senha</label>
-
-            <input type="password" name="senha" id="senha">
-
+            <input class="form-control mb-2"  type="password" name="senha" id="senha">
 
 
 
-            <input type="submit" value="Verificar">
 
-            <a href="Cadastro.php">Cadastrar</a>
+            <input class="btn btn-primary btn-lg"  type="submit" value="Verificar">
+
+            <a class="btn btn-danger btn-lg" href="cadastro.php">Cadastrar</a>
+
+
+
 
         </form>
 
+
+
+
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
 
 </body>
 
 </html>
-
-
-
-
-
-
-
 
